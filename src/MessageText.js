@@ -108,7 +108,7 @@ const styles = {
   left: StyleSheet.create({
     container: {},
     text: {
-      color: 'black',
+      color: '#3c5396',
       ...textStyle,
     },
     link: {
