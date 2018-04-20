@@ -186,6 +186,7 @@ const styles = {
       marginRight: 60,
       minHeight: 20,
       justifyContent: 'flex-end',
+      padding: 4,
     },
     containerToNext: {
       borderBottomLeftRadius: 3,
@@ -207,6 +208,7 @@ const styles = {
       marginLeft: 60,
       minHeight: 20,
       justifyContent: 'flex-end',
+      padding: 4,
     },
     containerToNext: {
       borderBottomRightRadius: 3,
