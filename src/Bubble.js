@@ -198,7 +198,9 @@ const styles = {
       alignItems: 'flex-end',
     },
     wrapper: {
-      borderRadius: 15,
+      borderTopRightRadius: 15,
+      borderTopLeftRadius: 15,
+      borderBottomRightRadius: 15,
       backgroundColor: Color.defaultBlue,
       marginLeft: 60,
       minHeight: 20,
