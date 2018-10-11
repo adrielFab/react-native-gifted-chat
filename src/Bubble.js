@@ -179,9 +179,7 @@ const styles = {
       alignItems: 'flex-start',
     },
     wrapper: {
-      borderTopRightRadius: 15,
-      borderTopLeftRadius: 15,
-      borderBottomRightRadius: 15,
+      borderRadius: 15,
       backgroundColor: Color.leftBubbleBackground,
       marginRight: 60,
       minHeight: 20,
@@ -201,9 +199,7 @@ const styles = {
       alignItems: 'flex-end',
     },
     wrapper: {
-      borderTopRightRadius: 15,
-      borderTopLeftRadius: 15,
-      borderBottomLeftRadius: 15,
+      borderRadius: 15,
       backgroundColor: Color.defaultBlue,
       marginLeft: 60,
       minHeight: 20,
