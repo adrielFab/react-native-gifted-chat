@@ -77,7 +77,9 @@ export default class Message extends React.Component {
               this.props.containerStyle[this.props.position],
             ]}
           >
+            {this.props.position === 'left' ? this.renderAvatar() : null}
             {this.renderBubble()}
+            {this.props.position === 'right' ? this.renderAvatar() : null}
           </View>
         )}
       </View>
