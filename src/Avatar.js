@@ -86,6 +86,7 @@ export default class Avatar extends React.PureComponent {
           styles[this.props.position].container,
           styles[this.props.position][computedStyle],
           this.props.containerStyle[this.props.position],
+          { marginBottom: 14 }
         ]}
       >
         {this.renderAvatar()}
